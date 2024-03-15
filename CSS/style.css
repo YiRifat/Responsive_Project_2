@@ -1,0 +1,475 @@
+/*! >>>>>>>>>>_ Basic Setup _<<<<<<<<<< */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    scrollbar-width: none;
+}
+/*! >>>>>>>>>>_ Reusable Component _<<<<<<<<<< */
+   /*! >>>>>>>>>>>>_ {Start} _<<<<<<<<<<<< */
+h1{
+    font-size: 4.2rem;
+    color: #3C4761;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2{
+    font-size: 4rem;
+    color: #3C4761;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: 2rem 0;
+}
+h2::after{
+    content: "";
+    display: block;
+    background-color: #14A68C;
+    border-radius: 1rem;
+    height: .5rem;
+    width: 8rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+h3{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #3C4761;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+p{
+    font-size: 1.8rem;
+}
+.btn{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #EB7D4B;
+    padding: 2rem 7rem;
+    border-bottom: #C86A40 solid .5rem;
+    border-radius: .5rem;
+}
+.btn:hover{
+    background-color: rgb(211, 161, 96);
+    border-bottom:  rgb(136, 94, 40) solid .5rem;
+    box-shadow: 0 0 1rem .1rem rgb(90, 18, 18);
+    transition: .3s;
+    color: brown;
+}
+
+.container{
+    padding: 0 10%;
+    max-width: 144rem;
+}
+section{
+    padding: 10rem 0;
+    text-align: center;
+}
+/*! >>>>>>>>>>_ Reusable Component _<<<<<<<<<< */
+    /*! >>>>>>>>>>>>_ {End} _<<<<<<<<<<<< */
+
+
+
+/*! Navbar */
+nav .container{  
+    background-color: #87509C;
+    position: fixed; 
+    z-index: 999;
+    max-width: 100%;
+}
+nav ul{
+
+}
+nav .container{
+    padding: 0;
+}
+nav ul li.onMobile a{
+    color: white; 
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+nav ul li a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+nav .mainbar li .nav-btns:hover{
+    background-color: #643A79;
+    padding: .75rem;
+    border-radius: .5rem;
+    font-weight: 900;
+    letter-spacing: .2rem;
+    cursor: pointer;
+}
+
+/*! Header Section */
+.header{
+    background: linear-gradient(rgba(135, 80, 156, 0.9),rgba(135, 80, 156, 0.9)), url(img/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10rem 0;
+    text-align: center;
+}
+.header h1{
+    color: white;
+    width: 85%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+.header .btn{
+    color: white;
+}
+.header .btn:hover{
+    background-color: rgb(211, 161, 96);
+    border-bottom:  rgb(136, 94, 40) solid .5rem;
+    box-shadow: 0 0 1rem .1rem rgb(0, 0, 0);
+    transition: .3s;
+    color: rgb(107, 71, 24);
+    font-weight: bold;
+}
+
+/*! Service Section */
+.service{
+    background: linear-gradient(rgba(23, 194, 163, 0.9),rgba(23, 194, 163, 0.9)), url(img/services-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.service-upper-part h2{
+    color: white;
+}
+.service-upper-part p{
+    width: 55%;
+    margin: 2rem auto;
+    color: white;
+}
+.service-lower-part{
+    padding: 5rem 0;
+
+}
+.service-lower-part .box {
+    text-align: center;
+}
+.service-lower-part .box h3{
+    text-transform: uppercase;
+    color: white;
+    padding: 2rem 0;
+}
+.service-lower-part .box p{
+    font-size: 1.6rem;
+    color: white;
+    width: 82%;
+    margin: 0 auto;
+}
+
+/*! Team Section */
+.team{
+    background: linear-gradient( rgba(231, 241, 248, 0.7),rgba(231, 241, 248, 0.7)), url(img/team-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team .team-upper-part h2::after{
+    background-color: #C8D9E5;
+}
+.team .row{
+    padding: 5rem 0;
+}
+.team .row .box img{
+    border-radius: 50%;
+    padding: 2rem 0;
+}
+.team .row .box span{
+    color: #30BAE7;
+    font-size: 1.6rem;
+}
+.team .row .box p{
+    font-size: 1.4rem;
+    padding: 2rem 0;
+    width: 75%;
+    height: 15rem;
+    margin: 0 auto;
+}
+.team .row .box ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+}
+.team .row .box ul li{
+    list-style: none;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 50%;
+    background-color: #BDD1DF;
+}
+.team .row .box ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+.team .row .box ul li:hover{
+    background-color: burlywood;
+    box-shadow: inset 0 0 .5rem .1rem black;
+    transition: .3s;
+}
+.team .row .box ul li:hover a i{
+    color: brown;
+    transform: rotate(360deg);
+    transition: .3s;
+
+}
+
+/*! Skill Section */
+.skill{
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(img/skill-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skill .skill-upper-part h2::after{
+    background-color: #DFE8ED;
+}
+.skill .skill-upper-part {
+    width: 44%;
+    margin: 0 auto;
+}
+.skill .skill-upper-part p{
+    padding-bottom: 4.5rem;
+}
+.skill .row{
+    width: 90%;
+    margin: 0 auto;
+}
+.skill .row .radial-progress{
+    text-align: center;
+}
+.skill .row .radial-progress circle{
+    stroke-width: .5rem;
+}
+.skill .row .radial-progress text{
+    fill: #3C4761;
+    font-size: 2rem;
+}
+.skill .row .web-box .radial-progress circle{
+    stroke: #30BAE7;
+}
+.skill .row .html-box .radial-progress circle{
+    stroke: #D74680;
+}
+.skill .row .graphic-box .radial-progress circle{
+    stroke: #15C7A8;
+}
+.skill .row .ui-box .radial-progress circle{
+    stroke: #EB7D4B;
+}
+
+/*! Portfolio Section */
+.portfolio{
+    background: linear-gradient(rgba(255, 221, 152, 0.7),rgba(255, 221, 152, 0.7)), url(img/portfolio-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolio .portfolio-upper-part h2::after{
+    background-color: #E5C27E;
+}
+.portfolio .portfolio-upper-part p{
+    width: 50%;
+    margin: 0 auto;
+}
+.portfolio .portfolio-lower-part .btns{
+    padding: 5rem 0;
+} 
+.portfolio .portfolio-lower-part .btns button{
+    margin: 0 1rem;
+    width: 7.5rem ;
+    height: 3.5rem;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: .2rem;
+    text-transform: uppercase;
+    background-color: #EBC985;
+}
+.portfolio .portfolio-lower-part .btns button:first-child{
+    background-color: #fff;
+}
+.portfolio .portfolio-lower-part .row{
+    padding-bottom: 6rem;
+}
+.portfolio .portfolio-lower-part .row img{
+    width: 90%;
+    height: 90%;
+}
+.portfolio .portfolio-lower-part .row p{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+.portfolio .portfolio-lower-part .load-btn{
+    background-color: #17C2A4;
+    border-bottom: #14A58C .5rem solid;
+    color: white;
+}
+.portfolio .portfolio-lower-part .load-btn:hover{
+    background-color: rgb(211, 161, 96);
+    border-bottom:  rgb(136, 94, 40) solid .5rem;
+    box-shadow: 0 0 1rem .1rem rgb(90, 18, 18);
+    transition: .3s;
+    color: brown;
+}
+
+/*! About Section */
+
+.about{
+    background: linear-gradient(rgba(215, 70, 128, 0.9),rgba(215, 70, 128, 0.9)), url(img/testimonial-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .about-upper-part h2{
+    color: white;
+}
+.about .about-upper-part h2::after{
+    background-color: #B73C6D;
+}
+.about .about-upper-part p{
+    color: white;
+}
+.about .row .box {
+    display: flex;
+    float: left;
+}
+.about .row .box img{
+    width: 9.6rem;
+    height: 9.6rem;
+    border-radius: 50%;
+    margin-right: 5rem;
+}
+.about .row{
+    margin-top: 10rem;
+}
+.about .row .row2{
+    margin-top: 10rem;
+}
+.about .row .box .info{
+    text-align: left;
+}
+.about .row .box .info p{
+    width: 80%;
+    text-align: left;
+    color: white;
+}
+.about .row .box .info h3{
+    color: white;
+    text-transform: uppercase;
+}
+.about .row .box .info span{
+    color: #FFDD99;
+    font-size: 1.8rem;
+}
+
+/*! Contact Section */
+
+.contact{
+    background: linear-gradient(rgba(60, 83, 153, 0.9),rgba(60, 83, 153, 0.9)), url(img/contact-bg.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.contact .contact-upper-part h2{
+    color: white;
+}
+.contact .contact-upper-part h2::after{
+    background-color: #273A71;
+}
+.contact .contact-upper-part p{
+    color: white;
+}
+.contact .contact-lower-part form{
+    margin-top: 7.5 rem;
+    margin-bottom: 5rem;
+}
+.contact .contact-lower-part .btn{
+    background-color: #30BAE7;
+    border-bottom: .5rem solid #299EC5;
+    color: white;
+}
+.contact .contact-lower-part .row1{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .contact-lower-part .row1 .span_1_of_2{
+    padding: 0;
+}
+.contact .contact-lower-part .row .box2{
+    float: right;
+}
+.contact .contact-lower-part input[type="text"],
+.contact .contact-lower-part input[type="email"],
+.contact .contact-lower-part textarea{
+    background-color: #273A71;
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 1.8rem;
+    padding: 2rem;
+}
+.contact .contact-lower-part input[type="text"],
+.contact .contact-lower-part input[type="email"]{
+    height: 5rem;
+}
+.contact .contact-lower-part .row2{
+    width: 100%;
+}
+.contact .contact-lower-part .row2 textarea{
+    margin-top: 2rem;
+}
+.contact .contact-lower-part .btn:hover{
+    background-color: rgb(211, 161, 96);
+    border-bottom:  rgb(136, 94, 40) solid .5rem;
+    box-shadow: 0 0 1rem .1rem rgb(90, 18, 18);
+    transition: .3s;
+    color: brown;
+}
+/*! Footer */
+.footer{
+    background-color: #344B8E;
+    padding-top: 2rem;
+    padding-bottom: 2rem ;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 5rem;
+}
+.footer ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+}
+.footer ul li a:hover,
+.footer ul li a:focus{
+    color: #30B7E4;
+    transition: .3s;
+}

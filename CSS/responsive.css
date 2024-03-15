@@ -1,0 +1,262 @@
+/*todo 2xl */
+@media (max-width: 1536px) {
+
+}
+
+/*todo xl */
+@media (max-width: 1280px) {
+    .team .row .box img{
+        width: 75%;
+    }
+}
+
+@media (max-width: 1140px) {
+    section{
+        padding: 5rem 0;
+    }
+    .service-lower-part .box img{
+        width: 42.5%;
+        height: 40%;
+    }
+    .team .row .box ul li{
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+    .team .row .box ul li a{
+        font-size: 1.8rem;
+    }
+    .about .row .box .info p{
+        height: 13rem;
+    }
+    .contact .contact-upper-part p{
+        padding-bottom: 4rem;
+    }
+}
+/*todo lg */
+@media (max-width: 1024px) {
+    h1{
+        font-size: 3.8rem;
+    }
+    h2{
+        font-size: 3.4rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+    .btn{
+        font-size: ;
+    }
+    .team .row .box p{
+        height: 18rem;
+    }
+    .footer ul li{
+        padding-right: 3rem;
+    }
+}
+/*todo md */
+@media (max-width: 900px){
+    .team .row .box h3{
+        height: 5rem;
+    }
+    .team .row .box p{
+        height: 22rem;
+    }
+    .team .row .box ul li{
+        width: 2.2rem;
+        height: 2.2rem;
+        line-height: 2.2rem;
+    }
+    .team .row .box ul li a{
+        font-size: 1.4rem;
+    }
+}
+
+/*todo md */
+@media (max-width: 768px) {
+    h1{
+        font-size: 3.8rem;
+    }
+    h2{
+        font-size: 3.4rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+    .btn{
+        font-size: 1.4rem;
+    }
+    .service-lower-part .box img{
+        width: 42.5%;
+        height: 38%;
+    }
+    .service-lower-part .box h3{
+        height: 6.8rem;
+    }
+    .service-lower-part .box p{
+        font-size: 1.4rem;
+        width: 95%;
+    }
+    .team .row .box h3{
+        height: 5rem;
+    }
+    .team .row .box span{
+        font-size: 1.4rem;
+    }
+    .team .row .box p{
+        width: 90%;
+        padding: 1rem 0;
+        height: 20rem;
+    }
+    .team .row .box ul li{
+        width: 2.2rem;
+        height: 2.2rem;
+        line-height: 2.2rem;
+    }
+    .team .row .box ul li a{
+        font-size: 1.4rem;
+    }
+    .about .row .box .img-box{
+        display: block;
+    }
+    .about .row .box .info{
+        display: block;
+    }
+    .about .row .box .info p{
+        width: 90%;
+        height: 16.5rem;
+    }
+
+}
+
+/*todo sm */
+@media (max-width: 640px) {
+    h1{
+        font-size: 3.4rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    .btn{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        background-color: #EB7D4B;
+        padding: 2rem 5rem;
+        border-bottom: #C86A40 solid .5rem;
+        border-radius: .5rem;
+    }
+    .team .row .box span{
+        font-size: 1.2rem;
+    }
+    .team .row .box p{
+        height: 25rem;
+    }
+    .about .row .box img{
+        margin-right: 2rem;
+    }
+    .footer ul li{
+        padding-bottom: 1rem;
+    }
+}
+
+/*todo xs */
+@media (max-width: 475px) {
+    h1{
+        font-size: 3.4rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2.2rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+    .btn{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        background-color: #EB7D4B;
+        padding: 2rem 5rem;
+        border-bottom: #C86A40 solid .5rem;
+        border-radius: .5rem;
+    }
+    .header h1{
+        width: 95%;
+    }
+    .service-upper-part p{
+        width: 85%;
+    }
+    .service-lower-part .box{
+        padding-bottom: 2rem;
+    }
+    .service-lower-part .box img{
+        width: auto;
+        height: auto;
+    }
+    .service-lower-part .box h3{
+        padding: 0;
+        margin: 0;
+        height: 3rem;
+    }
+    .team .row .box img{
+        width: 50%;
+    }
+    .team .row .box h3{
+        height: 3rem;
+    }
+    .team .row .box span{
+        font-size: 1.4rem;
+    }
+    .team .row .box p{
+        height: 12rem;
+    }
+    .team .row .box ul li{
+        width: 3.5rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+    }
+    .team .row .box ul li a{
+        font-size: 2rem;
+    }
+    .portfolio .portfolio-lower-part .btns button{
+        width: 5rem;
+        font-size: 1.4rem;
+    }
+    .portfolio .portfolio-lower-part .row img{
+        padding-top: 2rem;
+    }
+    .about .row{
+        margin-top: 0rem;
+    }
+    .about .about-lower-part.row{
+        margin: 0;
+        padding: 0;
+    }
+    .about .about-upper-part p{
+        font-size: 2.2rem;
+    }
+    .about .row .box .info {
+        padding-bottom: 5rem;
+    }
+    .about .row .box .info p{
+        height: auto;
+    }
+    .contact .contact-lower-part input[type="text"]{
+        margin-bottom: 1rem;
+    }
+}
